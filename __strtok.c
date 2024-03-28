@@ -25,5 +25,5 @@ char **_strtok(char *str)
 	if (!arr)
 		return (NULL); /* Exit if cannot allocate memory */
 
-	return (fill_array(arr, str, wCount)); /* Return an rray of words */
+	return (fill_array(arr, str, wCount));
 }

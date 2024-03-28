@@ -9,6 +9,7 @@
  *Return: The filled array.
  */
 
+
 char **fill_array(char **arr, char *placeholder, int wc)
 {
 	int i = 0;
