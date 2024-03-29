@@ -1,4 +1,4 @@
-#include "main.h"
+#include "monty.h"
 
 /**
  * fill_array - Filles and array wit splitted words.

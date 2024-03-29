@@ -1,7 +1,7 @@
-#include "main.h"
+#include "monty.h"
 
 /**
- * strtow - A function that splits a string into words.
+ * _strtok - A function that splits a string into words.
  * @str: A given string.
  *
  * Return: An array of words.

@@ -1,4 +1,4 @@
-#include "main.h"
+#include "monty.h"
 
 /**
  * wc - Counts the words inside a given string.

@@ -1,4 +1,4 @@
-#include "main.h"
+#include "monty.h"
 
 /**
  * read_textfile - A function that reads a text file and prints
@@ -18,7 +18,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (!filename || !letters) /* HAndle missing requirements */
 		return (0);
 
-i	fd = open(filename, O_RDONLY);
+	fd = open(filename, O_RDONLY);
 	buffer = malloc(sizeof(char) * letters);
 
 	/* HAndle failure on file opening */
