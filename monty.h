@@ -38,9 +38,13 @@ typedef struct instruction_s
 	void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
+stack_t *push(stack_t **head, const int n);
+int sum_stack(stack_t *head);
+size_t pall(const stack_t *h);
 char **fill_array(char **arr, char *placeholder, int wc);
 char **_strtok(char *str);
 char *tokenizer(char **placeholder);
 int wc(char *placeholder);
 ssize_t read_textfile(const char *filename, size_t letters);
+
 #endif /* _MOUNTY_H */
